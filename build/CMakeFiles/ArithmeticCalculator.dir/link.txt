@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/ArithmeticCalculator.dir/src/main.cpp.o CMakeFiles/ArithmeticCalculator.dir/src/calculator.cpp.o -o ArithmeticCalculator 

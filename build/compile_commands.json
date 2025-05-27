@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/boladimeji/Desktop/C++/projects/arithmetic-calculator/build",
+  "command": "/usr/bin/g++-12  -I/home/boladimeji/Desktop/C++/projects/arithmetic-calculator/include -g -Wall -Wextra -Wpedantic -Werror -std=gnu++17 -o CMakeFiles/ArithmeticCalculator.dir/src/main.cpp.o -c /home/boladimeji/Desktop/C++/projects/arithmetic-calculator/src/main.cpp",
+  "file": "/home/boladimeji/Desktop/C++/projects/arithmetic-calculator/src/main.cpp"
+},
+{
+  "directory": "/home/boladimeji/Desktop/C++/projects/arithmetic-calculator/build",
+  "command": "/usr/bin/g++-12  -I/home/boladimeji/Desktop/C++/projects/arithmetic-calculator/include -g -Wall -Wextra -Wpedantic -Werror -std=gnu++17 -o CMakeFiles/ArithmeticCalculator.dir/src/calculator.cpp.o -c /home/boladimeji/Desktop/C++/projects/arithmetic-calculator/src/calculator.cpp",
+  "file": "/home/boladimeji/Desktop/C++/projects/arithmetic-calculator/src/calculator.cpp"
+}
+]

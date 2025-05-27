@@ -1,0 +1,115 @@
+Project 1: Simple Arithmetic Calculator
+Objective
+Build a console calculator that performs basic arithmetic operations and handles user input validation.
+Prerequisites
+
+Variables (int, double, char)
+Basic input/output (cin, cout)
+Conditional statements (if/else)
+Basic operators (+, -, *, /)
+
+Requirements
+
+Display a menu of operations
+Get two numbers from user
+Perform calculation based on user choice
+Display result
+Handle division by zero
+Allow multiple calculations
+
+Step-by-Step Plan
+Step 1: Set up basic structure
+cpp#include <iostream>
+using namespace std;
+
+int main() {
+    // Display welcome message
+    // Create main program loop
+    // Get user input
+    // Perform calculations
+    // Display results
+    return 0;
+}
+Step 2: Create the menu system
+
+Display operation choices (1-Add, 2-Subtract, 3-Multiply, 4-Divide, 5-Exit)
+Get user's menu choice
+Validate the choice is between 1-5
+
+Step 3: Get numbers from user
+
+Prompt for first number
+Prompt for second number
+Store in appropriate variables (use double for decimal support)
+
+Step 4: Implement calculations
+
+Use switch statement or if-else chain
+Handle each operation case
+Special handling for division (check for zero)
+
+Step 5: Add program loop
+
+Allow user to perform multiple calculations
+Continue until user chooses exit
+
+Sample Code Structure
+cpp#include <iostream>
+using namespace std;
+
+int main() {
+    double num1, num2, result;
+    int choice;
+    char continueCalc = 'y';
+    
+    cout << "=== Simple Calculator ===" << endl;
+    
+    while (continueCalc == 'y' || continueCalc == 'Y') {
+        // Display menu
+        cout << "\nSelect operation:" << endl;
+        cout << "1. Addition" << endl;
+        cout << "2. Subtraction" << endl;
+        cout << "3. Multiplication" << endl;
+        cout << "4. Division" << endl;
+        cout << "Enter choice (1-4): ";
+        
+        cin >> choice;
+        
+        // Get numbers
+        cout << "Enter first number: ";
+        cin >> num1;
+        cout << "Enter second number: ";
+        cin >> num2;
+        
+        // Perform calculation
+        switch (choice) {
+            case 1:
+                // Addition logic
+                break;
+            case 2:
+                // Subtraction logic
+                break;
+            // ... etc
+        }
+        
+        // Ask to continue
+        cout << "Continue? (y/n): ";
+        cin >> continueCalc;
+    }
+    
+    return 0;
+}
+Extensions
+
+Add more operations (power, square root, percentage)
+Add input validation for non-numeric input
+Keep a history of calculations
+Add memory functions (store/recall/clear)
+
+Key Learning Points
+
+Basic I/O operations
+Control structures (loops, conditionals)
+Switch statements
+Data type handling
+Error handling basics
